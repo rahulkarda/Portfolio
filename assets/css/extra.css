@@ -1,0 +1,79 @@
+ #three{
+    background: url(/images/background-header.jpg),url(/assets/css/images/overlay1.png);
+    background-position: inherit;
+    color: white;
+    background-size: cover;
+} 
+#three p,#three h2,#three h3{
+    color: white;
+}
+#three li a{
+    color: white !important;
+    border: 2px solid white !important;
+}
+#five{
+    color: black;
+}
+#five p{
+    text-align: center;
+    color: black;
+}
+
+#four header{
+    text-align: left;
+}
+#four p{
+    font-size: 17px;
+}
+@media screen and (max-width: 800px){
+    #four img{
+        width: 60vw;
+    }    
+}
+
+@media screen and (min-width: 1200px) {
+    
+ #four .container{
+    display: flex;
+    }
+ #four img{
+        width: 33%;
+        margin-left: 7%;
+ }
+ #four header{
+     text-align: left;
+ }
+ #four p{
+     font-size: 19px;
+ }
+} 
+
+i{
+    font-size: 55px;
+}
+
+#four1{
+    background: url(/images/background-header.jpg),url(/assets/css/images/overlay1.png);
+    color: white;
+    background-position: center;
+}
+#four1 h2{
+    color: white;
+}
+.stack{
+    margin: 0;
+    /* color: #3b3838 !important; */
+}
+.service{
+    margin: 0;
+    /* color: rgb(54, 54, 54) !important; */
+    font-size: 45px;
+    font-weight: 400;
+}
+#four1 h3{
+    color: white;
+}
+.work{
+    font-weight: 400;
+    text-decoration: underline;
+}
