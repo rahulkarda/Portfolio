@@ -75,5 +75,7 @@ i{
 }
 .work{
     font-weight: 400;
+}
+.work:hover{
     text-decoration: underline;
 }
