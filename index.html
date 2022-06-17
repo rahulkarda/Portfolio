@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="/Portfolio/assets/css/extra.css">
 		<link rel="shortcut icon" href="/Portfolio/images/favicon.png" type="image/x-icon">
 		<script src="https://kit.fontawesome.com/4fc31833c8.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 	</head>
 	<body class="is-preload">
 
@@ -434,13 +435,13 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				<!--Form-->
 					<section>
 						<!-- <h4>Form</h4> -->
-						<form name="contact" data-netlify="true" method="post" action="#">
+						<form action="https://send.pageclip.co/9br0jjhpaO91O2znkFycPdgYRFOMUSFN" class="pageclip-form" method="post">
 							<div class="row gtr-uniform gtr-50">
 								<div class="col-6 col-12-xsmall">
-									<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+									<input type="text" name="name" id="demo-name" value="" placeholder="Name" />
 								</div>
 								<div class="col-6 col-12-xsmall">
-									<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+									<input type="email" name="email" id="demo-email" value="" placeholder="Email" />
 								</div>
 								<!---
 								<div class="col-12">
@@ -474,11 +475,15 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								</div>
 							-->
 								<div class="col-12">
-									<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+									<textarea name="message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
 								</div>
 								<div class="col-12">
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li>
+											<button type="submit" class="pageclip-form__submit primary">
+												<span>Submit</span>
+											  </button>						
+										</li>
 										<li><input type="reset" value="Clear" /></li>
 									</ul>
 								</div>
@@ -536,6 +541,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 	</body>
 </html>
